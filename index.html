@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Examkit</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="manifest" href="manifest.json">
+    <script>
+        //if browser support service worker
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js');
+        };
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img class="image" src="img/examkitlogo.png" width="50%" alt="" />
+        </div>
+        <div class="resource">ALL RESOURCES AT ONE PLACE</div>
+        <div>
+            <a href="intro.html"><button class="button">GO></button></a>
+        </div>
+        <div class="footer">
+            <p>DAYANANDA SAGAR INSTITUTIONS</p>
+        </div>
+    </div>
+</body>
+
+</html>
